@@ -1,0 +1,80 @@
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+    background-color: #3A70DB;
+    
+}
+
+form {
+    
+    background-color: whitesmoke;
+    width: 500px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    z-index: 1;
+}
+
+h2 {
+
+    font-weight: 20px;
+    font-size: 250%;
+    
+}
+
+label {
+
+    display: block;
+    font-size: 150%;
+    margin-bottom: 30px;
+}
+
+input {
+
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    padding: 15px;
+    font-size: 100%;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    font: inherit;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 25%;
+    height: 7%;
+    font-size: 100%;
+    border: none;
+    background-color: #0F7BD9;
+    color: white;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+}
+
+button:hover {
+    
+    cursor: pointer;
+    background-color: #2593E8;
+}
+
+button:active {
+    transform: scale(0.95); /* Slightly reduce the button size when pressed */
+}
+
+input:focus {
+
+    outline: none;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.6);
+}
