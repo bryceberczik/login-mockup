@@ -1,6 +1,7 @@
 //  logging each login info into the console in its own array
 let loginInfo = [];
 
+console.log('Console log loginInfo for the array of login information.');
 document.getElementById('loginForm').addEventListener('submit', function(event) {
 
     event.preventDefault();
@@ -13,7 +14,5 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     document.getElementById('username').value = '';
     document.getElementById('password').value = '';
 
-    console.log(`New login: Username: ${username}, Password: ${password}`);
-
-    console.log(loginInfo);
+    console.log(`New login detected`);
 });

@@ -21,6 +21,7 @@ form {
     flex-direction: column;
     border-radius: 15px;
     z-index: 1;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.3);
 }
 
 h2 {
@@ -52,7 +53,7 @@ input {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 a:visited, a:hover, a:active {
@@ -107,3 +108,34 @@ input:focus {
 
     text-decoration: underline;
 }
+
+
+@media screen and (max-width: 768px) {
+    form {
+        border-radius: 0px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    h2 {
+        font-size: 200%;
+    }
+
+    form {
+        padding: 20px;
+        margin: 0 10px;
+    }
+    button {
+        width: 50%;
+        margin: 10px 0;
+    }
+    #forgot-password {
+        margin-left: 10px;
+        justify-content: center;
+    }
+    .margin-bottom {
+        margin-bottom: 20px; 
+    }
+}
+  
