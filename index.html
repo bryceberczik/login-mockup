@@ -12,14 +12,20 @@
 </head>
 <body>
     <form id="loginForm">
-        <h2>Log in</h2>
+        <h2>Welcome back!</h2>
+
+        <p class="margin-bottom">Dont have an account? <a id="underline" href="">Sign up now!</a></p>
+
         <label for="username">Username</label>
-        <input placeholder="Username" id="username" name="username" type="text" required>
+        <input class="margin-bottom" placeholder="Username" id="username" name="username" type="text" required>
 
         <label for="password">Password</label>
-        <input placeholder="Password" id="password" name="password" type="text" required>
+        <input placeholder="Password" id="password" name="password" type="password" required>
+
+        <p id="forgot-password"><a href="">Forgot password?</a></p>
 
         <button type="submit">Log in</button>
+
     </form>
 
     <script src="./assets/js/script.js"></script>
